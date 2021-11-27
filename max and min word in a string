@@ -1,0 +1,7 @@
+sentence=input(" enter the string")
+longest = max(sentence.split(), key=len)
+smallest = min(sentence.split(),key=len)
+print("Longest word is: ", longest)
+print("And its length is: ", len(longest))
+print("smallest word is: ", smallest)
+print("And its length is: ", len(smallest))
